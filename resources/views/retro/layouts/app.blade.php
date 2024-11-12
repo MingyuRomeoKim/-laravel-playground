@@ -105,11 +105,7 @@
         @include('retro/modals/about')
 
         <nav class="navbar navbar-default navbar-fixed-bottom text-right">
-
-
-            &copy; <strike>1970</strike> 2024 <a href="http://appstor.io">AppStorio</a>
-
-
+            &copy; <strike>1970</strike> 2024 <a href="https://bored.co.kr">Bored.co.kr</a>
         </nav>
         <!-- /.footer -->
 
