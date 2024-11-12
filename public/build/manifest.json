@@ -1,0 +1,24 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-BgTLucab.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/css/retro/bootstrap.css": {
+    "file": "assets/bootstrap-BClsm2pw.css",
+    "src": "resources/css/retro/bootstrap.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-z-Rg4TxU.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  },
+  "resources/js/retro/bootstrap.min.js": {
+    "file": "assets/bootstrap.min-BnWlkKAY.js",
+    "name": "bootstrap.min",
+    "src": "resources/js/retro/bootstrap.min.js",
+    "isEntry": true
+  }
+}
