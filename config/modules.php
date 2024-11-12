@@ -1,7 +1,7 @@
 <?php
 
 use Nwidart\Modules\Activators\FileActivator;
-use Nwidart\Modules\Providers\ConsoleServiceProvider;
+
 
 return [
 
@@ -30,7 +30,7 @@ return [
             'routes/web' => 'routes/web.php',
             'routes/api' => 'routes/api.php',
             'views/index' => 'resources/views/index.blade.php',
-            'views/master' => 'resources/views/layouts/master.blade.php',
+            'views/master' => 'resources/views/layouts/layouts.blade.php',
             'scaffold/config' => 'config/config.php',
             'composer' => 'composer.json',
             'assets/js/app' => 'resources/assets/js/app.js',
@@ -209,7 +209,7 @@ return [
     | application. You can add your own commands to merge section.
     |
     */
-    'commands' => ConsoleServiceProvider::defaultCommands()
+    'commands' => collect(config('modules.commands', []))
         ->merge([
             // New commands go here
         ])->toArray(),
