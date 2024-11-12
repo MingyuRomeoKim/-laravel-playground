@@ -37,4 +37,14 @@ docker exec laravel-playground php artisan key:generate
 docker exec laravel-playground php artisan migrate
 ```
 
+## 4. certbot 설정
+certbot contianer로 이동합니다.
+```bash
+docker exec -it certbot /bin/bash
+```
+SKB 이용자인 저는 80포트를 사용할 수 없기 때문에 certbot container에서 dns 인증 방법 사용으로 certbot을 실행합니다.
+```bash
+sudo certbot -d your-domain --manual --preferred-challenges dns certonly
+```
+
 
