@@ -9,6 +9,7 @@
             @include('retro/layouts/sidebar')
             <!--/.page-side-bar-->
 
+            @if(isset($post))
             <div class="col-sm-8 page-content col-thin-left bordered">
 
                 <div class="row">
@@ -23,17 +24,18 @@
                             </div>
 
                             <div class="col-sm-8">
-                                <h1>Snake - Simple Retro Game</h1>
+
+                                <h1><?=$post['title']?></h1>
 
                                 <i class="fa fa-money" style="width: 18px;"></i>
 
-                                Free
+                                <?=$post['ip']?>
                                 <br>
                                 <i class="fa fa-user" style="width: 18px;"></i> Developer:
-                                <a href="https://softwar.io/developers/618105376-peaksel">Peaksel</a><br>
+                                <a href="https://softwar.io/developers/618105376-peaksel"><?=$post->user->name?></a><br>
                                 <br>
 
-                                <a class="btn btn-block btn-primary" href="//softwar.io/go/macappstore/1225502307" target="_blank">Mac App Store </a>
+                                <a class="btn btn-block btn-primary" href="mailto:<?=$post->user->email?>" target="_blank">Mail 보내기 </a>
 
 
                             </div>
@@ -50,26 +52,7 @@
 
 
                         <p class="intro">
-                            Remember that addictive SNAKE game you used to play all day long? Its BACK! Looks different but its the good old fun all over again! Try it ASAP!<br>
-                            <br>
-                            Feeling nostalgic for retro games? Download Snake - Classic Retro Game, one of the best classic games and dive into the memories of bygone times and simple games!<br>
-                            <br>
-                            ◆ ADDICTING GAMES ARE GETTING SMALLER! ◆ <br>
-                            <br>
-                            When was the last time you played the classic snake game? Wanna give it a try again? This fun game takes you back to the time when cool games were simple, yet addictive. So, if you are a fan of retro games or just in search of a simple game to keep the clock ticking, get Snake Game and enjoy!<br>
-                            <br>
-                            ◆ FEATURES: ◆ <br>
-                            <br>
-                            ▸ 4 WORLDS: Classic Snake, Retro Snake, Snake on Steroids, and Snake Master<br>
-                            ▸ 3 WAYS TO PLAY: tetris, swipe, or random<br>
-                            ▸ Rewind the snake option<br>
-                            ▸ Various boosters to help you progress<br>
-                            <br>
-                            How long can you last before your tail becomes your dinner? Take the challenge! Test all the snake games within the game and join our hall of fame by being one of the longest lasting players. Ready? Go for it!<br>
-                            <br>
-                            Classic games have never been more fun! Download Snake - Classic Retro Game and add this simple game to the list of the cool games you have recently played. Retro games are in so do not hesitate to join the craze!<br>
-                            <br>
-                            This game is an intellectual property of Peaksel.
+                            <?=$post->content?>
                         </p>
 
 
@@ -88,6 +71,7 @@
                 </div>
 
             </div>
+            @endif
             <!--/.page-content-->
 
         </div>
