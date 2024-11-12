@@ -19,7 +19,7 @@
                                 class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
                         <li><a onclick="ga('send', 'event', 'main', 'lngchange');"
-                               href="https://retro.appstor.io/kr">한국</a></li>
+                               href="#">한국</a></li>
                     </ul>
                 </li>
 

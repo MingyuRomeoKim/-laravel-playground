@@ -114,7 +114,7 @@
 
         <!-- Placed at the end of the document so the pages load faster -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-        <script src="//appstor.io/static/maintheme/assets/bootstrap/js/bootstrap.min.js"></script>
+        @vite(['resources/js/retro/bootstrap.min.js'])
 
 
         <script>
