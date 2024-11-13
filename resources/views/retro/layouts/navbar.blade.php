@@ -36,6 +36,7 @@
 
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="#" data-toggle="modal" data-target="#loginModal"><span style="color: #fefe54">L</span>ogin</a></li>
+                <li><a href="#" data-toggle="modal" data-target="#signUpModal"><span style="color: #fefe54">S</span>ignUp</a></li>
             </ul>
 
         </div><!--/.nav-collapse -->

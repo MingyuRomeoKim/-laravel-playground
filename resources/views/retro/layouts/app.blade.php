@@ -98,14 +98,8 @@
         <!-- /.main-container -->
 
 
-        <!-- Modal sharing -->
-        @include('retro/modals/sharing')
-
-        <!-- Modal about -->
-        @include('retro/modals/about')
-
-        <!-- Modal login -->
-        @include('retro/modals/login')
+        <!-- Modals -->
+        @include('retro/modals')
 
         <nav class="navbar navbar-default navbar-fixed-bottom ">
             <div class="container">
