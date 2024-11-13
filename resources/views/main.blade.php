@@ -1,6 +1,6 @@
 @extends('retro/layouts/app')
 
-@section('main', 'Main Page')
+@section('title', 'Main Page')
 
 @section('content')
     <div class="container">

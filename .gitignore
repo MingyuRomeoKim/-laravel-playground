@@ -26,4 +26,6 @@ Homestead.json
 .phpunit.result.cache
 
 composer.lock
-package-lock.json
+
+# Vite
+public/build/**

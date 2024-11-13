@@ -4096,6 +4096,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     background-color: #bbbbbb;
     border-color: #bbbbbb;
 }
+.nav-justify {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px; /* 좌우 여백 추가, 필요에 따라 조정 */
+}
+
 .navbar-default .navbar-brand {
     color: #000000;
 }
@@ -5305,6 +5312,7 @@ button.close {
 .modal-footer {
     padding: 0 10px;
     text-align: right;
+    padding-bottom: 20px;
 }
 .modal-footer .btn + .btn {
     margin-left: 10px;
@@ -5323,7 +5331,7 @@ button.close {
 @media (min-width: 768px) {
     .modal-dialog {
         width: 600px;
-        margin: 30px auto;
+        margin: 25% auto;
     }
     .modal-sm {
         width: 300px;
@@ -5909,5 +5917,9 @@ button.close {
     .hidden-print {
         display: none !important;
     }
+}
+
+.pb-20 {
+    padding-bottom: 20px;
 }
 /*# sourceMappingURL=bootstrap.css.map */

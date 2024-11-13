@@ -35,9 +35,7 @@
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#" data-toggle="modal" data-target="#aboutModal"><span style="color: #fefe54">A</span>bout
-                        Developer</a></li>
-
+                <li><a href="#" data-toggle="modal" data-target="#loginModal"><span style="color: #fefe54">L</span>ogin</a></li>
             </ul>
 
         </div><!--/.nav-collapse -->
