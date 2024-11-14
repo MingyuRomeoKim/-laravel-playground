@@ -11,6 +11,8 @@
 <!-- 헤더 영역 -->
 <header>
     <div class="container">
+        <!-- 메뉴 토글 버튼 (모바일에서 표시) -->
+        <button class="menu-toggle" aria-label="메뉴 열기">&#9776;</button>
         <!-- 로고 -->
         <h1 class="logo">로고</h1>
         <!-- 내비게이션 메뉴 (데스크톱) -->
@@ -22,13 +24,11 @@
                 <li><a href="#">연락처</a></li>
             </ul>
         </nav>
-        <!-- 메뉴 토글 버튼 (모바일에서 표시) -->
-        <button class="menu-toggle" aria-label="메뉴 열기">&#9776;</button>
     </div>
 </header>
 
-<!-- 내비게이션 메뉴 (모바일) -->
-<nav class="nav-mobile">
+<!-- 사이드바 메뉴 (모바일) -->
+<nav class="sidebar">
     <ul class="nav-links">
         <li><a href="#">홈</a></li>
         <li><a href="#">소개</a></li>

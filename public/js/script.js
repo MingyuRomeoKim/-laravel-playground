@@ -2,9 +2,11 @@
 
 document.addEventListener('DOMContentLoaded', function () {
     const menuToggle = document.querySelector('.menu-toggle');
-    const navMobile = document.querySelector('.nav-mobile');
+    const sidebar = document.querySelector('.sidebar');
+    const body = document.body;
 
     menuToggle.addEventListener('click', function () {
-        navMobile.classList.toggle('showing');
+        sidebar.classList.toggle('active');
+        body.classList.toggle('sidebar-open');
     });
 });
